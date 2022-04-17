@@ -31,13 +31,13 @@ let track_list = [
     name: "Ocean Deep Thoughts",
     artist: "theonlyjayyb",
     image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "OceanDeepThoughts.wav"
+    path: "music/OceanDeepThoughts.wav"
   },
   {
     name: "The Only",
     artist: "theonlyjayyb",
     image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "TheOnly.wav",
+    path: "music/TheOnly.wav",
   },
 ];
 
