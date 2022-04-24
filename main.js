@@ -30,15 +30,21 @@ let track_list = [
   {
     name: "Ocean Deep Thoughts",
     artist: "theonlyjayyb",
-    image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    image: "images/oceandeep.jpg",
     path: "music/OceanDeepThoughts.wav"
   },
-  {
-    name: "The Only",
-    artist: "theonlyjayyb",
-    image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "music/TheOnly.wav",
-  },
+//   {
+//       name: "Sauce",
+//       artist: "theonlyjayyb",
+//       image: "images/",
+//       path: ""
+//   },
+//   {
+//     name: "The Only",
+//     artist: "theonlyjayyb",
+//     image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+//     path: "music/TheOnly.wav",
+//   },
 ];
 
 function random_bg_color() {
@@ -60,11 +66,28 @@ function loadTrack(track_index) {
   resetValues();
   curr_track.src = track_list[track_index].path;
   curr_track.load();
+  
 
   track_art.style.backgroundImage = "url(" + track_list[track_index].image + ")";
   track_name.textContent = track_list[track_index].name;
   track_artist.textContent = track_list[track_index].artist;
   now_playing.textContent = "PLAYING " + (track_index + 1) + " OF " + track_list.length;
+  console.log(track_name.textContent)
+  if (track_name.textContent !== "Fuck Money") {
+    document.getElementById('money').style.display = "none"
+
+  } else {
+    document.getElementById('money').style.display = ""
+  }
+  if (track_name.textContent !== "Ocean Deep Thoughts") {
+    document.getElementById('ocean').style.display = "none"
+    // document.getElementsByClassName('now-playing').style.color = rgb(255, 255, 255)
+  } else {
+    document.getElementById('ocean').style.display = ""
+  }
+  
+
+  
 
   updateTimer = setInterval(seekUpdate, 1000);
   curr_track.addEventListener("ended", nextTrack);
