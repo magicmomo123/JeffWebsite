@@ -33,6 +33,15 @@ body {
         min-height: 100%;
 
     }
+    #drip {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        z-index: -10;
+        min-width: 100%;
+        min-height: 100%;
+
+    }
 
     
     .details {

@@ -33,12 +33,12 @@ let track_list = [
     image: "images/oceandeep.jpg",
     path: "music/OceanDeepThoughts.wav"
   },
-//   {
-//       name: "Sauce",
-//       artist: "theonlyjayyb",
-//       image: "images/",
-//       path: ""
-//   },
+  {
+      name: "Sauce",
+      artist: "theonlyjayyb ft. N8TE",
+      image: "images/sauce.jpeg",
+      path: "music/sauce.mp3"
+  },
 //   {
 //     name: "The Only",
 //     artist: "theonlyjayyb",
@@ -84,6 +84,12 @@ function loadTrack(track_index) {
     // document.getElementsByClassName('now-playing').style.color = rgb(255, 255, 255)
   } else {
     document.getElementById('ocean').style.display = ""
+  }
+  if (track_name.textContent !== "Sauce") {
+    document.getElementById('drip').style.display = "none"
+    // document.getElementsByClassName('now-playing').style.color = rgb(255, 255, 255)
+  } else {
+    document.getElementById('drip').style.display = ""
   }
   
 
