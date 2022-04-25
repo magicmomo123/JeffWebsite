@@ -78,18 +78,27 @@ function loadTrack(track_index) {
 
   } else {
     document.getElementById('money').style.display = ""
+    document.getElementsByClassName('now-playing')[0].style.color = 'rgb(' +0 +','+ 0 +','+ 0+')'
+    document.getElementsByClassName('track-name')[0].style.color = 'rgb(' +0 +','+ 0 +','+ 0+')'
+    document.getElementsByClassName('track-artist')[0].style.color = 'rgb(' +0 +','+ 0 +','+ 0+')'
   }
   if (track_name.textContent !== "Ocean Deep Thoughts") {
     document.getElementById('ocean').style.display = "none"
-    // document.getElementsByClassName('now-playing').style.color = rgb(255, 255, 255)
+    
   } else {
     document.getElementById('ocean').style.display = ""
+    document.getElementsByClassName('now-playing')[0].style.color = 'rgb(' +255 +','+ 255 +','+ 255+')'
+    document.getElementsByClassName('track-name')[0].style.color = 'rgb(' +255 +','+ 255 +','+ 255+')'
+    document.getElementsByClassName('track-artist')[0].style.color = 'rgb(' +255 +','+ 255 +','+ 255+')'
   }
   if (track_name.textContent !== "Sauce") {
     document.getElementById('drip').style.display = "none"
     // document.getElementsByClassName('now-playing').style.color = rgb(255, 255, 255)
   } else {
     document.getElementById('drip').style.display = ""
+    document.getElementsByClassName('now-playing')[0].style.color = 'rgb(' +155 +','+ 155 +','+ 155+')'
+    document.getElementsByClassName('track-name')[0].style.color = 'rgb(' +155 +','+ 155 +','+ 155+')'
+    document.getElementsByClassName('track-artist')[0].style.color = 'rgb(' +155 +','+ 155 +','+ 155+')'
   }
   
 
