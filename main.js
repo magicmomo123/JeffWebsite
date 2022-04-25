@@ -36,7 +36,7 @@ let track_list = [
   {
       name: "Sauce",
       artist: "theonlyjayyb ft. N8TE",
-      image: "images/sauce.jpeg",
+      image: "images/sauce2.jpeg",
       path: "music/sauce.mp3"
   },
 //   {
