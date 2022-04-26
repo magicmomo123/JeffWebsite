@@ -86,6 +86,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    color:aliceblue;
+
+
     }
     
     .playpause-track,
@@ -96,6 +99,7 @@ body {
     
     /* Smoothly transition the opacity */
     transition: opacity .2s;
+    
     }
     
     /* Change the opacity when mouse is hovered */
@@ -120,10 +124,11 @@ body {
     -moz-appearance: none;
     appearance: none;
     height: 5px;
-    background: black;
+    background: rgb(0, 0, 0);
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
+    
     }
     
     /* Modify the appearance of the slider thumb */
@@ -151,6 +156,7 @@ body {
     
     .volume_slider {
     width: 30%;
+    
     }
     
     .current-time,
@@ -161,6 +167,7 @@ body {
     i.fa-volume-down,
     i.fa-volume-up {
     padding: 10px;
+    
     }
     
     /* Change the mouse cursor to a pointer

@@ -81,6 +81,14 @@ function loadTrack(track_index) {
     document.getElementsByClassName('now-playing')[0].style.color = 'rgb(' +0 +','+ 0 +','+ 0+')'
     document.getElementsByClassName('track-name')[0].style.color = 'rgb(' +0 +','+ 0 +','+ 0+')'
     document.getElementsByClassName('track-artist')[0].style.color = 'rgb(' +0 +','+ 0 +','+ 0+')'
+    document.getElementsByClassName('buttons')[0].style.color = 'rgb(' +0 +','+ 0 +','+ 0+')'
+    document.getElementsByClassName('seek_slider')[0].style.background = 'rgb(' +0 +','+ 0 +','+ 0+')'
+    document.getElementsByClassName('volume_slider')[0].style.background = 'rgb(' +0 +','+ 0 +','+ 0+')'
+    document.getElementsByClassName('current-time')[0].style.color = 'rgb(' +0 +','+ 0 +','+ 0+')'
+    document.getElementsByClassName('total-duration')[0].style.color = 'rgb(' +0 +','+ 0 +','+ 0+')'
+    document.getElementsByClassName('fa fa-volume-down')[0].style.color = 'rgb(' +0 +','+ 0 +','+ 0+')'
+    document.getElementsByClassName('fa fa-volume-up')[0].style.color = 'rgb(' +0 +','+ 0 +','+ 0+')'
+    
   }
   if (track_name.textContent !== "Ocean Deep Thoughts") {
     document.getElementById('ocean').style.display = "none"
@@ -90,6 +98,13 @@ function loadTrack(track_index) {
     document.getElementsByClassName('now-playing')[0].style.color = 'rgb(' +255 +','+ 255 +','+ 255+')'
     document.getElementsByClassName('track-name')[0].style.color = 'rgb(' +255 +','+ 255 +','+ 255+')'
     document.getElementsByClassName('track-artist')[0].style.color = 'rgb(' +255 +','+ 255 +','+ 255+')'
+    document.getElementsByClassName('buttons')[0].style.color = 'rgb(' +255 +','+ 255 +','+ 255+')'
+    document.getElementsByClassName('seek_slider')[0].style.background = 'rgb(' +255 +','+ 255 +','+ 255+')'
+    document.getElementsByClassName('volume_slider')[0].style.background = 'rgb(' +255 +','+ 255 +','+ 255+')'
+    document.getElementsByClassName('current-time')[0].style.color = 'rgb(' +255 +','+ 255 +','+ 255+')'
+    document.getElementsByClassName('total-duration')[0].style.color = 'rgb(' +255 +','+ 255 +','+ 255+')'
+    document.getElementsByClassName('fa fa-volume-down')[0].style.color = 'rgb(' +255 +','+ 255 +','+ 255+')'
+    document.getElementsByClassName('fa fa-volume-up')[0].style.color = 'rgb(' +255 +','+ 255 +','+ 255+')'
   }
   if (track_name.textContent !== "Sauce") {
     document.getElementById('drip').style.display = "none"
@@ -99,6 +114,13 @@ function loadTrack(track_index) {
     document.getElementsByClassName('now-playing')[0].style.color = 'rgb(' +155 +','+ 155 +','+ 155+')'
     document.getElementsByClassName('track-name')[0].style.color = 'rgb(' +155 +','+ 155 +','+ 155+')'
     document.getElementsByClassName('track-artist')[0].style.color = 'rgb(' +155 +','+ 155 +','+ 155+')'
+    document.getElementsByClassName('buttons')[0].style.color = 'rgb(' +155 +','+ 155 +','+ 155+')'
+    document.getElementsByClassName('seek_slider')[0].style.background = 'rgb(' +155 +','+ 155 +','+ 155+')'
+    document.getElementsByClassName('volume_slider')[0].style.background = 'rgb(' +155 +','+ 155 +','+ 155+')'
+    document.getElementsByClassName('current-time')[0].style.color = 'rgb(' +155 +','+ 155 +','+ 155+')'
+    document.getElementsByClassName('total-duration')[0].style.color = 'rgb(' +155 +','+ 155 +','+ 155+')'
+    document.getElementsByClassName('fa fa-volume-down')[0].style.color = 'rgb(' +155 +','+ 155 +','+ 155+')'
+    document.getElementsByClassName('fa fa-volume-up')[0].style.color = 'rgb(' +155 +','+ 155 +','+ 155+')'
   }
   
 
